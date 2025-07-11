@@ -1,0 +1,321 @@
+
+
+.weather-forecast{
+    width: 24rem;
+    height: 23rem;
+    background-color: #444444;
+    box-shadow: 10px 10px 4px 0px #000000;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: 100px; */
+}
+.weather-forecast-light{
+    background-color: #D9D9D9;
+    box-shadow: 10px 10px 4px 0px hsl(0, 0%, 0%,50%);
+}
+
+.footer.light-mode p {
+  color: #292929; /* or your preferred light mode text color */
+}
+
+.foot-head{
+    width: 18rem;
+    height: 3.125rem;
+    /* background-color: burlywood; */
+    text-align: center;
+}
+.foot-head p{
+    font-size: 2rem;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #fff;
+}
+
+.group{
+    width: 23.125rem;
+    height: 3.75rem;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.group img{
+    width: 3.75rem;
+    height: 3.75rem;
+    position: relative;
+    right: 0.938rem;
+}
+.daily-cel{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.days{
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hourly-forecast{
+    width: 54.375rem;
+    height: 22.875rem;
+    box-shadow: 10px 10px 4px 0px #000000;
+    border-radius: 30px;
+    background-color: #444444;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hourly-forecast-light{   
+    background-color: #D9D9D9;
+    box-shadow: 10px 10px 4px 0px hsl(0, 0%, 0%,50%);
+    /* border: 2px solid; */
+}
+
+.hourly-top{
+    width: 16.75rem;
+    height: 3rem;
+    /* background-color: darksalmon; */
+    text-align: center;
+}
+.hourly-top p{
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+.hourly-groups{
+    height: 16.875rem;
+    width: 100%;
+    /* background-color: darkgreen; */
+    display: flex;
+    justify-content: center;
+    gap: 0.938rem;
+}
+.group2{
+    width: 8.125rem;
+    height: 16.875rem;
+    background-color: #373636;
+    border-radius: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.group2-light-3{
+    background: linear-gradient(180deg, hsl(31, 94%, 50%,100%) 0%, hsl(67, 77%, 92%,50%) 100%);
+}
+.group2-light-2{
+    background: linear-gradient(180deg, hsl(251, 24%, 32%,100%) 0%, hsl(222, 46%, 59%,20%) 100%);
+}
+.group2 p{
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hour-temp{
+    width: 5rem;
+    height: 6.875rem;
+    /* background-color: deeppink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hour-temp img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.hour-wind{
+    width: 5.938rem;
+    height: 5.938rem;
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+.hour-wind img{
+    width: 3.438rem;
+    height: 3.438rem;
+}
+.icons{
+    width: 5rem;
+    height: 20rem;
+    /* background-color: blueviolet;     */
+}
+.icons img{
+    width: 3rem;
+    height: 3rem;
+}
+
+@media (min-width: 576px) and (max-width: 769px){
+     .footer{
+        background-color: violet;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        align-content: center;
+        height: 70rem;
+        width: 40rem;
+    }
+.hourly-forecast{
+    width: 40rem;
+    height: 40rem;
+}
+.hourly-groups{
+    /* flex-direction: column;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center; */
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.group2{
+    margin-left: 2.8rem;
+}
+
+body{
+    align-items: center;
+}
+
+
+}
+
+@media (min-width: 1200px) {
+    .footer{
+        /* background-color: violet; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        align-content: center;
+        height: 25rem;
+    }
+.weather-forecast{
+    width: 21rem;
+    height: 20rem;
+    flex-direction: column;
+}
+
+.foreCast-content{
+    width: 100%;
+    height: 85%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons{
+    width: 4rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+
+.dail-temp{
+    width: 4rem;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.daily-date{
+    height: 100%;
+    width: 10rem;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.icons img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.foot-head p{
+    font-size: 1.5rem;
+    /* background-color: aqua; */
+}
+.foot-head{
+    /* height: 15%; */
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.group{
+    width: 21rem;
+    /* background-color: aqua ; */
+}
+.group img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.daily-cel{
+    font-size: 1.3rem;
+    /* background: aqua; */
+    width: 5rem;
+    align-self: center;
+}
+.days{
+    font-size: 1rem;
+}
+
+.hourly-forecast{
+    width: 40rem;
+    height: 20rem;
+}
+.hourly-top{
+    width: 16.75;
+    height: 2.5rem;
+}
+.hourly-top p{
+    font-size: 1.5rem;
+}
+.hourly-groups{
+    height: 75%;
+    gap: 0.6rem;
+    width: 100%;
+}
+.group2{
+    width: 6.7rem;
+    height: 100%;
+}
+.group2 p{
+    font-size: 1rem;
+}
+.hour-temp{
+    height: 5.8rem;
+}
+.hour-temp img{
+    width: 4rem;
+    height: 4rem;
+}
+.hour-wind{
+    height: 4.9rem;
+    width: 4.9rem;
+}
+.hour-wind img{
+    width: 3rem;
+    height: 3rem;
+}
+
+
+
+}

@@ -1,0 +1,102 @@
+
+body{
+  background: linear-gradient(
+    to right,
+    #444444 0%,
+    #404040 7%,
+    #3c3c3c 13%,
+    #393939 19%,
+    #414141 27%,
+    #474747 35%,
+    #4f4f4f 50%,
+    #474747 65%,
+    #414141 73%,
+    #393939 81%,
+    #2e2e2e 90%,
+    #232427 100%
+  );
+
+
+  
+
+   /* background: linear-gradient(
+    to right,
+    #FFFFFF 0%,
+    #F8F8F8 7%,
+    #F2F2F2 15%,
+    #ECECEC 25%,
+    #E5E5E5 35%,
+    #DADADA 50%,
+    #B0B0B0 65%,
+    #A0A0A0 80%,
+    #A0A0A0 100%
+  ); */
+  
+  display: flex;
+  justify-content: center;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.light-bg{
+    background: linear-gradient(
+    to right,
+    #FFFFFF 0%,
+    #F8F8F8 5%,
+    #F2F2F2 10%,
+    #ECECEC 18%,
+    #E5E5E5 28%,
+    #DADADA 40%,
+    #B0B0B0 55%,
+    #A0A0A0 70%,
+    #A0A0A0 100%
+  );
+}
+
+.dark-bg{
+
+   background: linear-gradient(
+    to right,
+    #444444 0%,
+    #404040 7%,
+    #3c3c3c 13%,
+    #393939 19%,
+    #414141 27%,
+    #474747 35%,
+    #4f4f4f 50%,
+    #474747 65%,
+    #414141 73%,
+    #393939 81%,
+    #2e2e2e 90%,
+    #232427 100%
+  );
+}
+
+
+@media (max-width: 575px){
+  
+body{
+  background: linear-gradient(
+    to right,
+    #444444 0%,
+    #404040 7%,
+    #3c3c3c 13%,
+    #393939 19%,
+    #414141 27%,
+    #474747 35%,
+    #4f4f4f 50%,
+    #474747 65%,
+    #414141 73%,
+    #393939 81%,
+    #2e2e2e 90%,
+    #232427 100%
+  );
+
+}
+
+}
